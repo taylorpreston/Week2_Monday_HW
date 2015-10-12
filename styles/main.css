@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Myriad";
+  font-weight: bold;
+  src: url(myriad.otf); }
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #30719F;
+  font-style: italic;
+  font-weight: bold; }
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #30719F;
+  opacity: 1;
+  font-style: italic;
+  font-weight: bold; }
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #30719F;
+  opacity: 1;
+  font-style: italic;
+  font-weight: bold; }
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #30719F;
+  font-style: italic;
+  font-weight: bold; }
+
+body {
+  margin: 0 auto;
+  background-color: #5BA3D6;
+  color: white;
+  width: 100%;
+  font-family: "Myriad";
+  text-align: center; }
+
+fieldset {
+  float: left;
+  width: 33.3%;
+  text-align: left;
+  margin: 0 auto;
+  border: none;
+  padding: 3%; }
+
+label {
+  float: left;
+  margin: 20px 0 0 0;
+  width: 100%;
+  content: "";
+  display: block;
+  clear: both; }
+
+textarea {
+  float: left;
+  content: "";
+  display: block;
+  clear: both;
+  background-color: #5BA3D6;
+  border: 2px white solid;
+  width: 100%; }
+
+select {
+  float: left;
+  content: "";
+  display: block;
+  clear: both;
+  background-color: #5BA3D6;
+  border: 2px white solid;
+  width: 100%; }
+
+input {
+  float: left;
+  content: "";
+  display: block;
+  clear: both;
+  background-color: #5BA3D6;
+  border: 2px white solid;
+  width: 100%; }
+
+input:focus, select:focus, textarea:focus {
+  color: #fff;
+  border: 2px #30719F solid;
+  outline: 1px #30719F solid; }
+
+@media (max-width: 800px) and (min-width: 500px) {
+  fieldset:nth-child(1) {
+    width: 50%; }
+  fieldset:nth-child(2) {
+    width: 50%; }
+  fieldset:nth-child(3) {
+    width: 100%;
+    float: none; } }
+
+@media (max-width: 500px) {
+  fieldset {
+    width: 100%; } }
